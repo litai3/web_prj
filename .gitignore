@@ -1,0 +1,16 @@
+# Environment & Sensitive Data
+.env, .env.local, .env.*.local, *.pem, *.key
+
+# Dependency Directories
+# JavaScript / Node.js: 
+node_modules/, npm-debug.log*
+# Python: 
+venv/, .venv/, __pycache__/, *.pyc
+# Java / Maven / Gradle: 
+.gradle/, target/
+# PHP / Composer:
+ vendor/
+
+Build & Output Directories
+# General build outputs:
+ dist/, build/, out/, *.o, *.exe, *.dll, *.so
